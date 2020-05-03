@@ -1,0 +1,20 @@
+
+spring:
+   datasource:
+    url:
+      jdbc:postgresql://localhost:5432/springsecurity
+    username: postgres
+    password: admin
+    generate-unique-name: true
+    driver-class-name: org.postgresql.Driver
+   jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    show-sql: true
+    open-in-view: true
+
+jwt:
+  secret_key: xX1g9gdIVaLL1zku99N7ynxx42hm9KJoZhzISegesabUGqOmrCB36VvawmXr42D
+
+
